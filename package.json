@@ -1,0 +1,26 @@
+{
+  "name": "binarysearchtree",
+  "version": "1.0.0",
+  "description": "binary search tree",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zorg-Moris/BinarySearchTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorg-Moris/BinarySearchTree/issues"
+  },
+  "homepage": "https://github.com/Zorg-Moris/BinarySearchTree#readme",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  }
+}
