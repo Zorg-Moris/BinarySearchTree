@@ -23,6 +23,7 @@ module.exports.first = {
     right: undefined,
   }
 };
+
 module.exports.second = {
   value: 10,
   left: {
