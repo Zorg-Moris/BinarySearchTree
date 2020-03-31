@@ -72,6 +72,7 @@ module.exports.second = {
     },
   }
 };
+
 module.exports.third = {
   value: 15,
   left: {
@@ -90,36 +91,35 @@ module.exports.third = {
                 value: 15,
                 left: {
                   value: 15,
-                  left: {
+                  right: {
                     value: 15,
-                    left: undefined,
-                    right: {
+                    left: {
                       value: 15,
                       left: {
                         value: 15,
-                        left: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
-                        right: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
+                        left: undefined,
+                        right: undefined
                       },
                       right: {
                         value: 15,
                         left: undefined,
-                        right: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
-                      },
+                        right: undefined
+                      }
+                    },
+                    right: {
+                      value: 15,
+                      right: {
+                        value: 16,
+                        left: undefined,
+                        right: undefined
+                      }
                     },
                   },
-                  right: undefined,
+                  left: {
+                    value: 15,
+                    left: undefined,
+                    right: undefined
+                  },
                 },
                 right: {
                   value: 15,
