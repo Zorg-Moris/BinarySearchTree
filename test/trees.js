@@ -74,7 +74,6 @@ module.exports.second = {
   }
 };
 
-
 module.exports.third = {
   value: 15,
   left: {
